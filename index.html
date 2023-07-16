@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./13.png">
+    <link href="styless.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="head">Guess the number</h1>
+        <p>A number between 1-10</p>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess" placeholder="Enter number here"/><br/>
+            <button class="btn check">Check!</button>
+            <button class="btn reset">Reset!</button>
+        </section>
+        <section class="right">
+            <p class="message"><strong>Start</strong></p>
+            <p class="main dcore"><strong>No of tries left:<span class="number"></span></strong></p>
+            <p class="main sco"><strong>SCORE:<span class="sco score"></span></strong></p>
+            <p class="main highscore"><strong>HIGHSCORE:<span class="sco hscore"></span></strong></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
